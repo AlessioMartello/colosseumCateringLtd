@@ -1,0 +1,14 @@
+.wrapper{
+    display:grid;
+    grid-auto-rows: auto;
+    column-gap: 10px;
+    row-gap: 1em;
+    margin: 2rem;
+}
+
+.box1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}

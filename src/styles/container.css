@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@700&family=Sen:wght@800&display=swap");
+
+.my-container {
+  height: 100vh;
+  padding-top: 4rem;
+  width: 65%;
+  margin: auto;
+}
+
+.container-title {
+  text-align: center;
+  font-family: "Sen", sans-serif;
+  font-size: 3rem;
+}
+
+.container-text {
+  padding: 2rem;
+}
+
+.blueBackground {
+  background-color: var(--background);
+}
+
+.containerWrapper {
+  margin: 5%;
+  border-radius: 1rem;
+  box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.2);
+}

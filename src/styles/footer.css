@@ -1,0 +1,46 @@
+.myFooter {
+background-color: var(--background);
+color: white;
+padding: 10px;
+overflow: hidden;
+bottom: 0;
+width: 100%;
+text-align: center;
+}
+
+  .row {
+    color: var(--text);
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+  .column {
+    flex: 33.3%;
+    margin:0.1rem;
+  }
+
+ul{list-style: none;
+  padding-left: 0; /* Remove padding */
+  padding-right: 0; /* Remove padding */
+  margin-right: 0; /* Remove margins */
+  margin-left: 0; /* Remove margins */
+}
+
+li>a{
+  text-decoration: none;
+  color: var(--text);
+}
+
+
+.footerHeader{
+    color: var(--detail);
+font-weight: bold;
+font-size: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .row {
+      display: block;
+    }
+  }

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@700&family=Sen:wght@800&display=swap');
+
+body, html {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x:hidden;
+  font-family: 'Sen', sans-serif ;
+
+}
+
+:root{
+--detail:#fe9746;
+--background: #254c79;
+--border: 'black',
+--text: 'white'
+}
+
+a:hover{
+  color: var(--detail) !important;
+}

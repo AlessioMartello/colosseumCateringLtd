@@ -1,0 +1,16 @@
+
+.custom-button{
+    background-color: var(--main-color);
+    border-radius: .7rem;
+    padding: 1rem;
+    font-size: large;
+    font-weight: bold;
+    margin:2%;
+    border-color: var(--border);
+    border-style: solid;
+    border-width:2px;
+}
+
+#frontPageBtn{
+    position: absolute;
+}

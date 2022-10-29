@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@700&family=Sen:wght@800&display=swap');
+
+.heroText{
+        font-family: 'Sen', sans-serif ;
+
+}
+
+.hero{
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 4vw;
+    padding-left: 2rem;
+}
+
+.subText{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    display: contents;
+    color: var(--detail);
+}
+
+#frontPageBtn{
+    margin:0 !important;
+    background-color: var(--background);
+    border-color:  var(--background);
+    color:white;
+    border-radius: 1rem;
+    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.2);
+    letter-spacing: 1px;
+    font-size: 1.5rem;    
+}
+
+#frontPageBtn:hover{
+    color: var(--detail);
+}
+
+@media only screen and (max-width: 600px) {
+    .hero {
+        font-size: 11vw;
+    }
+
+  }
+
+  .wrapper{
+    height: 100vh;
+    display:grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-auto-rows: auto;
+    column-gap: 10px;
+    row-gap: 1em;
+    margin: 6rem;
+}
+
+.box1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-size: 4rem;
+}
+
+
+
+.box2, .box3, .box4, .box5, .box6, .box7{
+    font-size:2rem
+}
